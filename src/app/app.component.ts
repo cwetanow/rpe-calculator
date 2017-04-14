@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{scale}}</h1>`,
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   scale = {
