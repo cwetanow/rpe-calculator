@@ -1,0 +1,33 @@
+<!-- Page Content -->
+<div class="container">
+
+  <div class="row">
+
+
+    <div class="col-md-9">
+
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://www.powerliftingtowin.com/wp-content/uploads/2014/04/miket-rpe.png" alt="">
+        <div class="caption-full">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Weight" [(ngModel)]="weight">
+            <input type="text" class="form-control" placeholder="Reps" [(ngModel)]="reps">
+            <input type="text" class="form-control" placeholder="RPE 6.5-10" [(ngModel)]="rpe">
+
+          </div>
+          <hr>
+          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" (click)="calculate()">
+                                <span class="glyphicon glyphicon-check"></span>
+          </button>
+          </span>
+          <hr> Projected 1RM
+          <div class="input-group"> <input type="text" class="form-control" placeholder="Max" [(ngModel)]="max" disabled="disabled">
+          </div>
+        </div>
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
