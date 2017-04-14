@@ -107,4 +107,14 @@ export class AppComponent {
       "6.5": 64
     }
   };
+  weight: number;
+  reps: number;
+  rpe: number;
+  max: number;
+
+  calculate() {
+    console.log();
+    let percent = this.scale[this.reps][this.rpe];
+    this.max = (this.weight / percent) * 100;
+  }
 }
