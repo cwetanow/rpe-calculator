@@ -37,7 +37,7 @@ jspm_packages
 .node_repl_history
 
 # Ignores compiled TypeScript files
-**/src/app/**/*.map
-**/src/app/**/*.js
-**/src/main.js
-**/src/main.js.map
+# **/src/app/**/*.map
+# **/src/app/**/*.js
+# **/src/main.js
+# **/src/main.js.map
